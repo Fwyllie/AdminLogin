@@ -19,11 +19,11 @@
     date_default_timezone_set("America/Toronto");
     $hour = date('H');
     if ( $hour < 12 ) {
-      echo "<h1 id=\"timeMsgMorning\">Good Morning {$_SESSION['user_name']}</h1>";
-    } else if ( $hour >= 19) {
-      echo "<h1 id=\"timeMsgNight\">Good Evening {$_SESSION['user_name']}</h1>";
+      echo "<h1 id=\"timeMsgMorning\">Oh god, is it morning already {$_SESSION['user_name']} ?</h1>";
+    } else if ( $hour >= 19){
+      echo "<h1 id=\"timeMsgNight\">It's getting late, dont stay up too late again {$_SESSION['user_name']}! </h1>";
     }else if ( $hour >= 12) {
-      echo "<h1 id=\"timeMsgAfternoon\">Good Afternoon {$_SESSION['user_name']}</h1>";
+      echo "<h1 id=\"timeMsgAfternoon\">Good Afternoon, Get to work {$_SESSION['user_name']}!</h1>";
     }
 
     echo "<p>Last Login: {$_SESSION['last_login']}</p>";
