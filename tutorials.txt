@@ -1,0 +1,13 @@
+Last Login
+https://stackoverflow.com/questions/1995562/now-function-in-php/1995566
+http://www.webdeveloper.com/forum/showthread.php?85577-PHP-Last-Logged-In-Time
+
+
+Timezones
+https://stackoverflow.com/questions/8652502/run-code-depending-on-the-time-of-day
+https://www.w3schools.com/php/func_date_default_timezone_set.asp
+
+Lockout 
+https://stackoverflow.com/questions/30770438/blocked-the-user-after-3-attempts-in-php
+http://webcheatsheet.com/php/blocking_system_access.php
+https://www.experts-exchange.com/questions/25477393/php-block-login-for-15-minutes-after-3-failed-attempts.html
