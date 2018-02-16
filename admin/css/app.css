@@ -1,0 +1,48 @@
+body{
+  background-color: #A19DD9;
+  text-align: center;
+}
+#container{
+  margin-top: 10%;
+}
+#loginForm{
+  padding: 20px 0 50px;
+  width: 50%;
+  margin-left: 25%;
+  background-image: url('../images/gplaypattern.png');
+  border-radius: 10px;
+}
+#pass, #uname, #submit{
+  padding: 10px;
+  border-radius: 3px;
+}
+#pass, #uname{
+  width: 40%;
+  margin-top: 10px;
+}
+#submit{
+    margin-top: 30px;
+    background-color: #4C4A66;
+    color: white;
+    padding: 10px 20px;
+}
+#submit:hover{
+  background-color: #68668C;
+}
+#invalidLogin{
+  color: #4C4A66;
+}
+#timeMsg{
+  margin: 50px auto 0px;
+  border-bottom: 2px solid #fff;
+  width: 40%;
+}
+#welcomeMsg{
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #1C0038;
+}
+#indexContainer{
+  background-image: url('../images/gplaypattern.png');
+  padding: 30px;
+}
